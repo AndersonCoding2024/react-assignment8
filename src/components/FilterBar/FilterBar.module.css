@@ -1,0 +1,40 @@
+.filterBar {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 15px -7px rgba(93, 164, 164, 0.2);
+  transform: translateY(-50%);
+  margin-bottom: -1.5rem;
+  padding-left: 2.1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.clear {
+  background: none;
+  border: none;
+  color: var(--clr-darkGrayishCya);
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+}
+
+.clear:hover {
+  color: var(--clr-desaturatedDarkCyan);
+  text-decoration: underline;
+}
+
+
+@media (max-width: 767px) {
+  
+  .filterBar {
+    padding-left: 1rem;
+  }
+
+}

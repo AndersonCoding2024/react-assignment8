@@ -1,0 +1,20 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-desaturatedDarkCyan: hsl(180, 29%, 50%);
+  --clr-lightGrayishCyan-1: hsl(180, 52%, 96%); /** Background **/
+  --clr-lightGrayishCyan-2: hsl(180, 31%, 95%); /** Filter Tablets **/
+  --clr-darkGrayishCya: hsl(180, 8%, 52%);
+  --clr-veryDarkGrayishCyan: hsl(180, 14%, 20%);
+
+  /** Typography **/
+  --font-paragraph: 15px; 
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+
+  --ff-base: "League Spartan", sans-serif;
+}

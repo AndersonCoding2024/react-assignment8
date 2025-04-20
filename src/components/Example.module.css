@@ -1,0 +1,8 @@
+/* Variable Imports */
+@import '../variables.css';
+
+.example {
+  color: var(--clr-desaturatedDarkCyan);
+  font-family: var(--ff-base);
+  font-size: 24px;
+}
